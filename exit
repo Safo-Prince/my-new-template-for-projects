@@ -1,0 +1,29 @@
+[33mcommit 07502a5ea0e247fe814ddb2c3652569b89530eac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Safo Prince <psam64850@gmail.com>
+Date:   Fri Jun 11 22:27:19 2021 +0000
+
+    added the neccesary css and mobile responsiveness
+
+[33mcommit c667efda0254ec1913c3a85c56eaaba5b4ecc662[m
+Author: Safo Prince <psam64850@gmail.com>
+Date:   Fri Jun 11 20:49:09 2021 +0000
+
+    fixed the container height problem
+
+[33mcommit 542949b23b7e8b28274c5c22ccfed0b5ce819bc6[m
+Author: Safo Prince <psam64850@gmail.com>
+Date:   Fri Jun 11 20:36:22 2021 +0000
+
+    html components for the quote-container
+
+[33mcommit 0c90ec14a5d298bdff06c71c838524e79904f481[m
+Author: Safo Prince <psam64850@gmail.com>
+Date:   Fri Jun 11 19:19:02 2021 +0000
+
+    initital commit
+
+[33mcommit ba0deec307a695989bb45bf45903cfe7be68b94c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Safo Prince <psam64850@gmail.com>
+Date:   Sat Apr 10 13:38:27 2021 +0000
+
+    initial commit

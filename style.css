@@ -42,7 +42,35 @@ body {
   font-weight: 400;
   font-style: italic;
 }
+.button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
 
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  background: yellow;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+}
+button:hover {
+  background-color: white;
+}
+button:active {
+  transform: scale(1.2);
+}
+
+.twitter-button:hover {
+  color: #38a1f3;
+}
+.fa-twitter {
+  font-size: 1.5rem;
+}
 @media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 10px;
