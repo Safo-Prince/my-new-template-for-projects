@@ -12,11 +12,11 @@ function loading(){
 }
 // hide loading
 function complete(){
-    
+    if(!loader.hidden){
     quoteContainer.hidden = false;
     loader.hidden = true;
 
-    
+    }
 }
 async function getQuote(){
     loading()
