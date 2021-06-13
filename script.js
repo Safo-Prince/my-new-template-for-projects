@@ -3,9 +3,23 @@ const quoteText =document.getElementById('quote')
 const authorText =document.getElementById('author')
 const twitterBtn =document.getElementById('twitter')
 const newQuoteBtn =document.getElementById('new-quote')
+const loader = document.getElementById('loader')
 
+// show loading
+function loading(){
+    loader.hidden =false;
+    quoteContainer.hidden = true;
+}
+// hide loading
+function complete(){
+    
+    quoteContainer.hidden = false;
+    loader.hidden = true;
 
+    
+}
 async function getQuote(){
+    loading()
 const proxyUrl = 'https://whispering-tor-04671.herokuapp.com/'
 const apiURL ='http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
 
@@ -26,6 +40,8 @@ if(data.quoteText.lenght > 120){
     quoteText.classList.remove('long-quote');
 }
 quoteText.innerText = data.quoteText;
+// stop loader ,show quote
+complete();
 }catch(error){
     
 }
